@@ -17,6 +17,7 @@ import { ChatPageComponent } from './chat-page/chat-page.component';
 import { FromNowPipe } from './pipes/from-now.pipe';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ChatWindowComponent,
     ChatPageComponent,
     FromNowPipe,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
